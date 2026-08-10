@@ -1,2 +1,23 @@
-# chicago-taxi-trip-duration-prediction
-An end-to-end PySpark machine learning pipeline for predicting Chicago taxi trip duration using distributed data processing, regression modelling and Tableau dashboards.
+🚕 Project Overview
+
+📂 Dataset
+
+🧹 Data Engineering
+
+⚡ Distributed Computing
+
+🤖 Machine Learning Models
+
+📊 Model Evaluation
+
+📈 Tableau Dashboards
+
+💻 Repository Structure
+
+🧠 Skills Demonstrated
+
+🚀 Future Improvements
+
+📄 Report
+
+🌍 About the Author
