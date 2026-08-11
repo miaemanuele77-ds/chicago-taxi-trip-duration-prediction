@@ -2,6 +2,9 @@
 
 *An end-to-end PySpark machine learning pipeline for predicting Chicago taxi trip duration using distributed data processing, regression modelling and Tableau dashboards.*
 
+![Model Performance Dashboard](images/model_performance_dashboard.png)
+
+
 ## 🚀 Highlights
 
 - 🚕 Analysed a large-scale Chicago Taxi Trips dataset using PySpark.
@@ -52,7 +55,9 @@ The dataset was prepared through a scalable preprocessing pipeline which include
 - Feature scaling
 - Construction of reusable PySpark ML pipelines
 
-![PySpark Pipeline](images/pyspark_pipeline.png)
+The cleaned dataset was repartitioned and optimised to support efficient distributed processing across the Spark cluster.
+
+![PySpark Data Pipeline](images/pyspark_data_pipeline.png)
 
 
 ## 🤖 Machine Learning Models
@@ -66,6 +71,8 @@ Four regression models were developed and compared:
 
 Hyperparameter tuning was performed using cross-validation to improve predictive performance.
 
+![Model Comparison Summary](images/model_comparison_summary.png)
+
 
 ## ⚡ Distributed Computing
 
@@ -77,10 +84,12 @@ To improve scalability and computational efficiency, the project investigated:
 - Spark UI performance monitoring
 - Distributed model training
 
+![Spark UI Analysis](images/spark_ui_analysis.png)
+
 
 ## 📊 Model Evaluation
 
-The regression models were evaluated using:
+The regression models were evaluated using multiple performance metrics, including:
 
 - Root Mean Squared Error (RMSE)
 - Mean Absolute Error (MAE)
@@ -89,23 +98,24 @@ The regression models were evaluated using:
 - Stability analysis
 - Model explainability
 
-The best-performing model was selected by comparing predictive accuracy, robustness and computational performance.
+SHAP analysis was used to identify the features with the greatest influence on taxi trip duration predictions.
 
-![Model Comparison](images/model_comparison.png)
+![SHAP Feature Importance](images/shap_feature_importance.png)
 
 
 ## 📈 Tableau Dashboards
 
-Interactive Tableau dashboards were developed to communicate the analytical results.
+Interactive Tableau dashboards were created to communicate the analytical results to both technical and non-technical audiences.
 
 The dashboards present:
 
-- Data quality and pipeline monitoring
-- Model performance and feature importance
+- Data quality monitoring
+- Model performance
+- Feature importance
 - Business insights
-- Scalability and computational performance
+- Scalability analysis
 
-![Business Dashboard](images/tableau_business_dashboard.png)
+![Business Insights Dashboard](images/business_insights_dashboard.png)
 
 
 ## 📁 Repository Structure
@@ -120,6 +130,13 @@ The dashboards present:
 │   └── 06_tableau_storytelling.ipynb
 │
 ├── images/
+│   ├── model_performance_dashboard.png
+│   ├── dataset_overview.png
+│   ├── pyspark_data_pipeline.png
+│   ├── model_comparison_summary.png
+│   ├── spark_ui_analysis.png
+│   ├── shap_feature_importance.png
+│   └── business_insights_dashboard.png
 │
 ├── reports/
 │   └── Chicago_Taxi_Trip_Duration_Prediction_Report.pdf
@@ -133,7 +150,9 @@ The dashboards present:
 
 ## 🧠 Skills Demonstrated
 
+- Python
 - PySpark
+- Apache Spark
 - Big Data Analytics
 - Machine Learning
 - Regression Modelling
@@ -141,9 +160,9 @@ The dashboards present:
 - Distributed Computing
 - Cross Validation
 - Model Evaluation
+- SHAP Explainability
 - Tableau
 - Data Visualisation
-- Python
 
 
 ## 🚀 Future Improvements
