@@ -13,8 +13,6 @@
 - 📊 Evaluated model performance using multiple regression metrics.
 - 📈 Developed interactive Tableau dashboards to communicate business insights.
 
-![Chicago Taxi Dashboard](images/chicago_taxi_dashboard_overview.png)
-
 
 ## 📌 Project Overview
 
