@@ -38,7 +38,7 @@ The project uses the **Chicago Taxi Trips** dataset, containing millions of taxi
 
 The dataset satisfies the characteristics of Big Data and was processed entirely using distributed PySpark operations.
 
-![Dataset Overview](images/chicago_taxi_dataset_overview.png)
+![Dataset Overview](images/dataset_overview.png)
 
 
 ## 🧹 Data Engineering
